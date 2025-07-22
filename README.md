@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HR FAQ Chatbot (TF-IDF Version)
 
 This is a Flask-based chatbot that answers HR-related questions using a predefined FAQ list.
@@ -21,3 +22,6 @@ This is a Flask-based chatbot that answers HR-related questions using a predefin
 - Uses TF-IDF vectorization and cosine similarity to find the closest question.
 - Returns the answer with the highest similarity above a threshold (0.1).
 - Debug prints in terminal to help trace match and score.
+=======
+
+>>>>>>> 01790d505047a914e69adae9b273e1d1533dff55
