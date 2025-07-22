@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HR FAQ Chatbot</title>
+</head>
+<body>
+    <h2>Ask a Question</h2>
+    <form method="POST" action="/">
+        <input type="text" name="query" placeholder="Type your question..." required />
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if response %}
+        <h3>Response:</h3>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
